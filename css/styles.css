@@ -81,6 +81,7 @@ list-style: none;
 }
 
 .menu{
+    color: green;
   width: 100%;
   position: absolute;
 margin-top: 5px;
