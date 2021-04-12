@@ -1,24 +1,20 @@
 body {
   background-color: #ddffbc;
-  border-radius: 100%;
-  font-size: 32px;
-  font-family: 'Bubblegum Sans', cursive, serif;
+  color: green;
   text-align: center;
 }
 
 h1 {
-  color: green;
-  width: auto;
+  font-size: 4em;
   margin: 0 auto;
   font-family: 'Sacramento', cursive, serif;
 }
 
-h2 {
-  font-family: 'Bubblegum Sans', sans-serif;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
+p {
+  font-size: 20px;
+  font-family: 'Bubblegum Sans', cursive, serif;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .FWProfilePic {
@@ -27,67 +23,51 @@ h3 {
 }
 
 .top-container {
-  color: green;
-  position: relative;
-  top: 100px;
+margin-top: 50px;
 }
-
-
 
 .top-container img {
   margin-top: 10px;
 }
 
-.middle-container {
-  color: green;
+.bottom-container {
+margin-top: 50px;
+}
+
+.CloudOne {
+  width: 150px;
+}
+
+.CloudTwo {
+  width: 150px;
   position: relative;
-  top: 100px;
-}
-
-.ShortSummary {
-  font-size: 18px;
-  font-family: 'Bubblegum Sans', cursive, serif;
-}
-
-.Cloud {
-  height: 200px;
-  background-color: #ddffbc;
+  margin-bottom: 250px;
 }
 
 .glitter {
   height: 100px;
 }
 
-.regularParagraph {
-  font-size: 20px;
+.menu {
+  font-size: 32px;
   font-family: 'Bubblegum Sans', cursive, serif;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .menu lu {
   list-style: none;
   text-decoration: none;
+  display:block;
 }
 
 .menu li {
   display: inline;
   padding-right: 20px;
-  ;
   padding-left: 20px;
 }
 
 .menu ul>li>a {
   text-decoration: none;
   color: inherit;
-}
-
-.menu {
-  color: green;
-  width: 100%;
-  position: absolute;
-  margin-top: 5px;
 }
 
 .photoPage{
